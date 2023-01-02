@@ -1,0 +1,97 @@
+.header_1{
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .7em 0;
+}
+
+.container{
+    margin: auto;
+}
+
+.flex_container{
+    display: flex;
+    justify-content: center;
+}
+
+.middle_align{
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.h2_1{
+    margin-top: 3em;
+}
+
+.container_2{
+    margin-top: 5em;
+}
+
+.form_1{
+    width: 50rem;
+    border-top: black double 1em;
+    border-right: none;
+    border-bottom: solid black .2em;
+    border-left: none;
+}
+
+.field_1{
+    margin-top: 2em;
+    padding-top: 1.5em;
+    border: none;
+    }
+
+.field_1 input{
+    margin-left: 9em;
+}
+
+.field_1 label{
+    position: absolute;
+}
+
+.input_width{
+    width: 85%;
+    height: 2.5em;
+    background-color: rgb(207, 204, 204);
+}
+
+.label_1{
+    font-size: 1.5em;
+}
+
+.field_2{
+    border: none;
+    max-height: 8em;
+    margin-top:1em;
+}
+
+.field_3{
+    border-bottom: solid black .2em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.text_1{
+    width: 100%;
+    height: 5em;
+    margin-bottom: 2em;
+    background-color: rgb(207, 204, 204);
+}
+
+.button_1{
+    min-width: 100%;
+    background-color: rgb(46, 170, 241);
+    min-height: 3em;
+    margin-bottom: 5em;
+    font-size: 1em;
+}
+
+
+/*Combinators----*/
+fieldset > input{
+    margin-bottom: 3em;
+}
