@@ -1,0 +1,235 @@
+html{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+footer{
+    max-width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+
+.header_1{
+    margin: auto;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3px 0;
+}
+
+.flex_container{
+    max-width: 50vw;
+    margin: auto;
+}
+
+.middle_align{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form_1{
+    margin: auto;
+    border-top: black double 1em;
+    border-right: none;
+    border-bottom: solid black .2em;
+    border-left: none;
+    padding-bottom: 2em;
+}
+
+.field_1{
+    border: none;
+    margin: auto;
+    padding: 0;
+    }
+
+.input_section{
+    display: flex;
+    flex-direction: row;
+    }
+ 
+.field_1 label{
+    position: absolute;
+    }
+
+.label_1{
+    font-size: 1rem;
+    }
+
+.input_width{
+        width: 97%;
+        height: 2.5em;
+        background-color: rgb(207, 204, 204);
+    }
+
+.input_width_2{
+    width: 49%;
+    height: 2.5em;
+    background-color: rgb(207, 204, 204);
+}
+
+select{
+    width: 100%;
+    height: 2.5em;
+    background-color: rgb(207, 204, 204);
+    border: solid black .2em
+    }
+
+.field_2{
+    border: none;
+    margin-bottom: 5em;
+    max-height: 8em;
+    margin-top: 1em;
+    padding: 0;
+    }
+
+.field_3{
+    border-bottom: solid black .2em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 0;
+    }
+
+.text_1{
+    border-radius: 5px;
+    width: 97%;
+    height: 8em;
+    margin-bottom: 2em;
+    background-color: rgb(207, 204, 204);
+    }
+
+.button_align{
+    margin-left: 0;
+}
+    
+.button_1{
+    border-radius: 10px;
+    width: 97%;
+    background-color: rgb(46, 170, 241);
+    min-height: 2.5em;
+    margin-bottom: 2em;
+    font-size: 1em;
+    }
+    
+input:focus {
+    background-color: lightblue;
+    }
+
+.form_ label, select{
+    display: block;
+    }
+
+.form_1 input, select{
+    display: block;
+    margin-top: 2em;
+    }
+
+
+
+/******************************media queries----**********************************/
+
+@media (min-width:768px) {
+
+    html{
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+     body{
+        max-width: 100vw;
+     }   
+     
+    body, header{
+        margin: auto;
+    }
+
+    footer{
+        margin-bottom: 4em;
+    }
+
+    .span_1{
+        text-align: center;
+    }
+
+    .form_1{
+        width: 50rem;
+        border-top: black double 1em;
+        border-right: none;
+        border-bottom: solid black .2em;
+        border-left: none;
+        margin-bottom: 5px;
+    }  
+
+    .input_section{
+        display: block;
+        }
+
+    .input_width{
+        width: 75%;
+        margin-left: 170px;
+    }
+
+    .input_width_3{
+        width: 75%;
+        margin-left: 170px;
+    }
+
+    .input_width_2{
+        width: 15%;
+        height: 30px;
+        margin-left: 170px;
+        background-color: rgb(207, 204, 204);
+    }
+
+    .field_2{
+        margin-bottom: 5em;
+    }
+
+    .field_3{
+        min-width: 800px;
+        border-bottom: solid black .2em;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding: 0;
+    }
+
+    .text_1{
+        width: 800px;
+        height: 8em;
+        margin-bottom: 2em;
+        background-color: rgb(207, 204, 204);
+    }
+
+    .button_1{
+        width: 800px;
+        background-color: rgb(46, 170, 241);
+        max-height: 4em;
+        margin-bottom: 2em;
+        font-size: 1em;
+    }
+
+    input:focus {
+        background-color: lightblue;
+    }    
+    }
+
+        
+    /*Combinators----*/
+    fieldset > input{
+        margin-bottom: 3em;
+        margin-left: 2em;
+    }
+    
+    fieldset > select{
+        margin-bottom: 3em;
+        margin-left: 9em;
+    }
+    
+    /*Structural Psedo Classes----*/
+   
+
+
