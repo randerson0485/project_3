@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>Online Registration Form</title>
+    </head>
+
+    <body>
+            <header class="header_1">
+                <h2>The Code Review</h2>
+            </header>
+            
+            <div class="flex_container">
+                <main>
+                    <div class="middle_align">
+                        <h1>Sign Up For Newsletter</h1>
+                        <span>Get the latest news on how your code is doing right in your inbox</span>
+                    </div>
+                    
+                    <form class="form_1">                        
+                        <fieldset class="field_1">
+                            <legend><h2 class="h2_1">Contact Information</h2></legend>
+
+                                <div class="input_section">
+                                    <label class="label_1" for="name">Full Name:</label>
+                                    <input class="input_width" type="text" id="name" name="user_name" placeholder="Required">
+                                </div>
+                                    <br>
+                                <div class="input_section">
+                                    <label class="label_1" for="mail">Email:</label>
+                                    <input class="input_width" type="email" id="mail" name="user_email" placeholder="Required">
+                                </div>
+                                    <br>
+                                <div class="input_section">
+                                    <label class="label_1" for="phone">Phone #:</label>
+                                    <input class="input_width" type="tel" id="phone" name="user_tel">
+                                </div>
+                                    <br>
+                                <div class="input_section">
+                                    <label class="label_1" for="street">Address:</label>
+                                    <input class="input_width" type="text" id="street" name="user_street">
+                                </div>
+                                    <br>
+                                <div class="input_section">
+                                    <label class="label_1" for="city">City:</label>
+                                    <input class="input_width" type="text" id="city" name="user_city">
+                                </div>
+                                    <br>
+                                <div class="input_section">
+                                    <label class="label_1" for="state">State:</label>
+                                    <select class="input_width_3" id="state" name="user_state">
+                                        <option value="choose">Choose State</option>
+                                        <option value="illinois">Illinois</option>
+                                        <option value="ws">Wisconsin</option>
+                                        <option value="ia">Iowa</option>
+                                        <option value="mi">Michicgan</option>
+                                    </select>
+                                </div>
+                                    <br>
+                                <div class="input_section">
+                                    <label class="label_1" for="zip">Zipcode:</label>
+                                    <input class="input_width_2" type="text" id="zip" name="user_zip" pattern="[0-9]*">
+                                </div>
+                        </fieldset>
+                    </form>
+                    
+                    <form class="form_2">
+                        <h5>Select the newsletters you would like to recieve:</h5>
+                            <fieldset class="field_2">
+                                <legend class="leg_2">
+                                    <h2>Newsletter</h2>
+                                </legend>
+                                    <input class="button_align" type="checkbox" id="html_newsletter"  name="user_newsletter">
+                                    <label for="html_newsletter">HTML News</label>
+                                    <br>
+                                    <input class="button_align" type="checkbox" id="css_newsletter"  name="user_newsletter">
+                                    <label for="css_newsletter">CSS News</label>
+                                    <br>
+                                    <input class="button_align" type="checkbox" id="javascript_newsletter"  name="user_newsletter">
+                                    <label for="javascript_newsletter">Javascript News</label>
+                            </fieldset>
+                        
+                            <fieldset class="field_3">
+                                <h5>Newsletter Format:</h5>
+                                <input class="button_align" type="radio" id="html_format"  name="user_newsletter">
+                                <label for="html_format">HTML</label>
+                                <br>
+                                <input class="button_align" type="radio" id="plain_text"  name="user_newsletter">
+                                <label for="plain_text">Plain Text</label>
+                                <br>
+                            </fieldset>
+                        <label for="text">Other topics you'd like to hear about:</label>
+                        <textarea class="text_1" id="text" name="user_text"></textarea>
+                        <br>
+                        <button class="button_1" type="submit">Sign Up</button>
+                    </form>
+                </main>  
+
+            </div>
+                <footer>
+                    <span class="span_1">&copy; Copyright, 2022 Ransmon Anderson</span>
+                </footer>
+    </body>
+</html>
